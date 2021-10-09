@@ -1,6 +1,10 @@
 # sutd-stl1
 
-Save all files to the same folder to test the scripts. Separate modules might need to be imported by another user testing out this scripts.
+This study was conducted as it should be of great interest to cybersecurity professionals and also the layman to have uncrackable passwords. Using multiple approaches to password generation and password quality checking, this paper aims to find out which password generation method created the set of passwords with the strongest resistance to guessability and the applicability of our password quality checker tool compared to those already available online.
+
+Evaluating character frequencies and time to generate, we conclude that among all 6 password generation sources, the Python Secrets module is the most cryptographically secure, although generating large amounts of passwords with this module is time consuming, and this is to be expected as this module was created intended to be used for cryptography-purposes. To generate a handful of passwords, the Python Secrets module is the fastest generator. We also conclude that our password quality tool checker utilizing the Levenshtein algorithm, time to bruteforce and rainbow tables is more stringent than some other online sources in classifying a password as strong, making it more security-focused than user-focused.
+
+_Save all files to the same folder to test the scripts. Separate modules might need to be imported by another user testing out this scripts._
 
 **stl1_password_generator.py**
 has been set to generate 5 passwords only per character combination and length for all 6 sources and will output saved csv file stl1_all.csv:
