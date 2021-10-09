@@ -9,13 +9,13 @@ has been set to generate 5 passwords only per character combination and length f
 
 
 **stl1_hasher.py**
-output the MD5 hashes and populate this folder with the respective text files. An example of one of the columns in the csv, output as hash in txt file:
+outputs all the MD5 hashes and populates this folder with the respective text files for all the 90 columns in the first generated csv. An example of one of the columns in the csv, output as hash in txt file:
 
 ![image](https://user-images.githubusercontent.com/39832806/136648617-87eb2d7d-7fde-4fa3-8e1a-0577d675e90a.png)
 
 
 **stl1_frequency.py**
-output the character occurrences count in descending order and populate this folder with the respective text files. An example of the top 10 most used characters in RJ source, combination 12-LDS:
+outputs all the character occurrences count in descending order for all the 90 columns in the first generated csv and populates this folder with the respective text files. An example of the top 10 most used characters in RJ source, combination 12-LDS:
 
 ![image](https://user-images.githubusercontent.com/39832806/136648715-67a6a364-605c-4f3d-9f91-7950c96f148a.png)
 
