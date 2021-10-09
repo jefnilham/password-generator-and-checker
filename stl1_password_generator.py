@@ -482,7 +482,7 @@ def gen_password_urandom(length, combi, combi_string):
          n += 1
          passwords_list.append(password)
          df = pd.read_csv(filename)
-         df['WC_%s-%s' % (length, combi_string)] = pd.DataFrame(passwords_list)
+         df['CG_%s-%s' % (length, combi_string)] = pd.DataFrame(passwords_list)
          df.to_csv(filename, index=False)
 
 def gen_passwords_urandom_overall(length):
